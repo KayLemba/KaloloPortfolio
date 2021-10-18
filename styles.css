@@ -79,6 +79,7 @@ body {
 .first-section {
   background-image: url('./images/background.png');
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   padding: 114px 24px;
 }
