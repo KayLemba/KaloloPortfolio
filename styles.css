@@ -11,12 +11,10 @@ body {
 }
 
 .text {
-  width: 80%;
   margin: 0 auto;
-  margin-top: 5em;
 }
 
-.salutation {
+.about-me {
   font-size: 40px;
   font-weight: 700;
   width: auto;
@@ -38,8 +36,10 @@ body {
   margin-left: 0%;
 }
 
-.buttons li {
-  display: inline-block;
+.buttons {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
   margin-right: 20px;
   margin-top: 25px;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .nav-bar {
-  width: 80%;
+  width: 90%;
   height: 70px;
   color: #565b86;
   display: flex;
@@ -81,4 +81,5 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  padding: 114px 24px;
 }
