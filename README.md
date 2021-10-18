@@ -30,8 +30,10 @@ Here is my repository link:  https://kaylemba.github.io/KaloloPortfolio/
 ## Authors
 
 👤 **Kalolo Chola Lemba**
+- GitHub: [@KayLemba](https://github.com/KayLemba)
+- Twitter: [@King-Kaylo1](https://twitter.com/King_Kaylo1) 
+- LinkedIn: [@kalolo-lemba](https://www.linkedin.com/in/https://www.linkedin.com/in/kalolo-lemba-41a8339a/-41a8339a/)
 
-- GitHub: [@githubhandle](https://github.com/KayLemba)
 
 ## 🤝 Contributing
 
