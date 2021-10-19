@@ -118,16 +118,17 @@ body {
 }
 
 .project-card img {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
 }
 
 .head {
   color: #172b4d;
   font-weight: bold;
   line-height: 44px;
-  font-size: 32px;
+  font-size: 35px;
   font-family: poppins, sans-serif;
+  margin-left: 5px;
+  padding-top: 12px;
 }
 
 .card-detail {
@@ -152,7 +153,15 @@ body {
   font-weight: 500;
   font-family: poppins, sans-serif;
   display: inline-block;
-  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.circle {
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 5px;
+  row-gap: 12px;
 }
 
 .option {
@@ -164,7 +173,6 @@ body {
   position: static;
   width: 88px;
   padding-top: 8px;
-  margin-right: 12px;
 }
 
 .canopy {
@@ -178,18 +186,18 @@ body {
   height: 16px;
   padding-left: 0;
   padding-top: 8px;
-  margin-right: 12px;
+  margin-left: 10px;
 }
 
 p {
   position: static;
   width: auto;
   height: auto;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   color: #344563;
   order: 1;
-  margin: 12px 0;
+  margin: 12px 10px;
 }
 
 button {
