@@ -418,5 +418,5 @@ a .btn-two {
 .message {
   height: 170px;
   border-radius: 8px;
-  width: 327px;
+  /* width: 327px; */
 }
