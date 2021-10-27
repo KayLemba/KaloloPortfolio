@@ -631,9 +631,7 @@ a .btn-two {
   }
 
   .paragraph1 {
-    /* width: 80%; */
     max-width: 120%;
-    /* height: 98px; */
     font-size: 20px;
     line-height: 28px;
     color: #344563;
