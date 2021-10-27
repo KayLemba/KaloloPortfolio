@@ -1,8 +1,8 @@
-# Mobile Portfolio Project For Microverse By Kalolo Chola Lemba
+# My Portfolio Project For Microverse By Kalolo Chola Lemba
 
 > This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
-
-![screenshot](contact-me.png)
+# DESKTOP VERSION
+![screenshot](deskshot.png)
 
 Additional description about the project and its features.
 
