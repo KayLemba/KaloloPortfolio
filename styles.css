@@ -86,7 +86,6 @@ body {
 
 .paragraph1 {
   margin: 10px 0;
-  margin-left: 0;
   width: auto;
   margin-left: 0;
 }
@@ -127,8 +126,7 @@ body {
 }
 
 .mobile-image img {
-  width: 100%;
-  
+  width: 100%; 
 }
 
 .head {
@@ -140,7 +138,6 @@ body {
   margin-left: 16px;
   padding-top: 12px;
   padding-bottom: 12px;
-
 }
 
 .card-detail {
@@ -167,7 +164,6 @@ body {
   display: inline-block;
   margin-left: 21px;
 }
-
 
 .circle {
   display: inline-block;
@@ -202,7 +198,6 @@ body {
   margin-left: 21px;
 }
 
-
 p {
   position: static;
   width: auto;
@@ -213,7 +208,6 @@ p {
   margin: 12px 21px;
   padding-bottom: 12px;
 }
-
 
 button {
   border: 1px solid #7f8cff;
