@@ -576,6 +576,12 @@ a .btn-two {
     width: 140px;
     height: 48px;
   }
+
+  .btn-one {
+    margin: 40px 2px;
+    margin-bottom: 30px;
+    align-self: start;
+  }
 }
 
 @media (min-width: 1000px) {
