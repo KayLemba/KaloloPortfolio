@@ -805,6 +805,6 @@ a .btn-two {
   }
 
   .logo {
-    animation: myrotate 3s;
+    animation: myrotate 10s;
   }
 }
