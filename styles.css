@@ -47,7 +47,7 @@ main {
 .lets-connect {
   font-size: 16px;
   font-weight: 500;
-  color: #7f8cff;
+  color: #4052f7;
   margin-top: 10px;
 }
 
@@ -61,7 +61,7 @@ main {
   font-weight: 700;
   padding-left: 22px;
   line-height: 20px;
-  color: #6070ff;
+  color: #2a3ef8;
   background-color: #fff;
 }
 
@@ -175,6 +175,19 @@ main {
   align-items: center;
   padding: 1px 5px;
   row-gap: 12px;
+  color: grey;
+}
+
+.circle-desktop {
+  display: inline-block;
+  align-items: center;
+  background-color: rgb(193, 199, 208);
+
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 1px 5px
 }
 
 .option {
@@ -719,7 +732,7 @@ a .btn-two {
   .langu2 {
     background-color: #ebebff;
     padding: 10px;
-    color: #4472e7;
+    color: #2d5fdd;
     border-radius: 10px;
     font-weight: 500;
     font-family: poppins, sans-serif;
