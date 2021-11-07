@@ -47,7 +47,8 @@ main {
 .lets-connect {
   font-size: 16px;
   font-weight: 500;
-  color: #4052f7;
+  color: #7F8CFF;
+  ;
   margin-top: 10px;
 }
 
@@ -61,7 +62,7 @@ main {
   font-weight: 700;
   padding-left: 22px;
   line-height: 20px;
-  color: #2a3ef8;
+  color: #6070ff;
   background-color: #fff;
 }
 
@@ -440,7 +441,7 @@ a .btn-two {
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
-  color: #4472e7;
+  color: #2e63e7;
 }
 
 .message {
@@ -749,7 +750,7 @@ a .btn-two {
     margin: 10px 0;
   }
 
-  .dcanopy2_facebook {
+  .dcanopy2_facebook {  
     width: 100px;
   }
 
@@ -817,6 +818,6 @@ a .btn-two {
   }
 
   .logo {
-    animation: myrotate 10s;
+    animation: myrotate 3s;
   }
 }
