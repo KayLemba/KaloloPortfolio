@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 - Html
 - css
-- 
+- Javascript
 - Visual Studio Code
 
 ## Getting Started
