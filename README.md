@@ -4,8 +4,8 @@
 https://kaylemba.github.io/KaloloPortfolio/
 
 > This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
-# DESKTOP VERSION
-![screenshot](deskshot.png)
+# MOBILE VERSION
+![screenshot](toggle-nav.png)
 
 Additional description about the project and its features.
 
