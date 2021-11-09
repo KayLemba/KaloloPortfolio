@@ -16,6 +16,57 @@ body {
   background-color: #e5e5e5;
 }
 
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(112, 236, 118, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  transform: translate(-100%);
+  transition: all 1s ease-in-out;
+}
+
+.show-side-bar {
+  transform: translate(0);
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 85px;
+}
+
+.anchor-link {
+  margin-left: 24px;
+  color: #fff;
+  text-decoration: none;
+  font-family: poppins, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 44px;
+  margin-bottom: 1rem;
+}
+
+.cancel-styling {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  left: 85%;
+  margin-top: 15px;
+  color: #fff;
+}
+
+body.noscroll {
+  overflow: hidden;
+  position: fixed;
+}
+
 main {
   width: 100%;
 }
