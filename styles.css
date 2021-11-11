@@ -162,7 +162,6 @@ body.noscroll {
   width: 100%;
 }
 
-
 main {
   width: 100%;
 }
@@ -664,7 +663,7 @@ a .btn-two {
   .sidebar {
     display: none;
   }
-  
+
   .lang {
     padding-top: 40px;
   }
@@ -811,7 +810,6 @@ a .btn-two {
     margin: 0 auto;
   }
 
- 
   .circle-desktop {
     display: inline-block;
     align-items: center;
@@ -845,7 +843,7 @@ a .btn-two {
     font-size: 16px;
     line-height: 24px;
   }
-  
+
   .card-detail-header-container {
     display: flex;
     flex-direction: row;
@@ -1022,10 +1020,6 @@ a .btn-two {
   .popup-description {
     margin-top: 15px;
     width: 95%;
-  }
-
-  .option {
-    display: none;
   }
 
   .desktop_show {
