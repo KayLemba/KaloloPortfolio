@@ -88,20 +88,16 @@ const Openpopup = ({
           <h3 class="modal-title">${name}</h3>
          </div>
          <ul class="card-detail-header-container">
-             <li class="card-detail canopy-modal">${
-  width > 1024 ? option[0] : optionMobile[0]
+             <li class="card-detail canopy-modal">${width > 1024 ? option[0] : optionMobile[0]
 }</li>
-             <li class="card-detail canopy-modal option-modal"><span class="circle-desktop"></span> ${
-  width > 1024 ? option[1] : optionMobile[1]
+             <li class="card-detail canopy-modal option-modal"><span class="circle-desktop"></span> ${width > 1024 ? option[1] : optionMobile[1]
 }</li>
-             <li class="card-detail canopy-modal option-modal"><span class="circle-desktop"></span>${
-  width > 1024 ? option[2] : optionMobile[2]
+             <li class="card-detail canopy-modal option-modal"><span class="circle-desktop"></span>${width > 1024 ? option[2] : optionMobile[2]
 } </li>
            </ul>
             
           <div class='modal-img-container' >
-            <img src='${
-  width > 1024 ? desktopImage : featuredImage
+            <img src='${width > 1024 ? desktopImage : featuredImage
 }' alt="modal picture" class="modal-img">
           </div>
           <div class="modal-text">
@@ -111,14 +107,11 @@ const Openpopup = ({
             <div>
               <ul class="anchor-div technologies-langu">
                 <li><a href="#">${technologies[0]}</a></li>
-                <li><a href="#">${
-  technologies[1] ? technologies[1] : ''
+                <li><a href="#">${technologies[1] ? technologies[1] : ''
 }</a></li>
-                <li><a href="#">${
-  technologies[2] ? technologies[2] : ''
+                <li><a href="#">${technologies[2] ? technologies[2] : ''
 }</a></li>
-                <li><a href="#">${
-  technologies[3] ? technologies[3] : ''
+                <li><a href="#">${technologies[3] ? technologies[3] : ''
 }</a></li>
               </ul>
               <div class="modal-buttons ">
@@ -319,3 +312,15 @@ anchorLink.forEach((anchor) => {
 });
 
 window.onload = showWorks();
+const formContainer = document.querySelector('.con-form');
+formContainer.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const mailInput = document.getElementById('mail');
+  const messageError = document.querySelector('.error-message');
+
+  if (mailInput.value === mailInput.value.toLowerCase()) {
+    messageError.textContent = '';
+  } else {
+    messageError.innerHTML = '*email must be in lower case <br> * form not sent';
+  }
+});
