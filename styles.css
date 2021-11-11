@@ -67,6 +67,102 @@ body.noscroll {
   position: fixed;
 }
 
+.cancels {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #67798e;
+  font-size: 2rem;
+  margin-left: auto;
+  position: absolute;
+  top: 4rem;
+  right: 1rem;
+  z-index: 8;
+}
+
+.modal {
+  overflow: auto;
+  width: 100%;
+  height: 100vh;
+  background: rgba(182, 177, 177, 0.5);
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.show-modal {
+  visibility: visible;
+}
+
+.modal-inner {
+  position: relative;
+  opacity: 1;
+  background: #fff;
+  width: 90%;
+  margin: 3rem auto;
+  padding: 2rem 0.5rem;
+  border-radius: 1.6rem;
+}
+
+.modal-title {
+  font-weight: 700;
+  color: #172b4d;
+  font-size: 32px;
+  margin-bottom: 1rem;
+  font-family: "poppins", sans-serif;
+}
+
+.modal-text {
+  display: grid;
+  color: #344563;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.modal-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 9px;
+  bottom: 90px;
+  right: 32px;
+}
+
+.modal-head {
+  display: flex;
+  align-items: center;
+}
+
+.mr a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.source-btn {
+  width: 146px;
+  height: 40px;
+  border: 1px solid #7f8cff;
+  padding: 8px;
+  color: #396df2;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.modal-img {
+  width: 100%;
+}
+
+
 main {
   width: 100%;
 }
@@ -124,6 +220,13 @@ main {
   margin-top: 20px;
   margin-left: 0%;
   padding-bottom: 100px;
+}
+
+.anchor-div a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #4472e7;
+  font-size: small;
 }
 
 .social-media li a {
@@ -200,6 +303,10 @@ main {
   text-align: center;
 }
 
+.card-detail img {
+  padding: 2px 5px;
+}
+
 .card-detail ::after {
   content: "\00b7";
   font-size: 1.5em;
@@ -231,7 +338,7 @@ main {
 
 .circle-desktop {
   display: inline-block;
-  align-items: center;
+  align-self: center;
   background-color: rgb(193, 199, 208);
   width: 10px;
   height: 10px;
@@ -251,6 +358,16 @@ main {
   padding-top: 8px;
 }
 
+.option-modal {
+  font-family: poppins, sans-serif;
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  padding-top: 8px;
+  margin-right: 12px;
+}
+
 .canopy {
   font-family: poppins, sans-serif;
   color: #344563;
@@ -263,6 +380,17 @@ main {
   padding-left: 0;
   padding-top: 8px;
   margin-left: 21px;
+}
+
+.canopy-modal {
+  font-family: poppins, sans-serif;
+  color: #344563;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 0;
+  padding-top: 8px;
+  margin-right: 12px;
 }
 
 p {
@@ -504,6 +632,17 @@ a .btn-two {
   bottom: 30%;
 }
 
+.technologies-langu li {
+  background-color: #ebebff;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-family: poppins, sans-serif;
+  justify-content: space-between;
+  margin-right: 20px;
+  display: inline-block;
+}
+
 .menu-desktop {
   display: none;
 }
@@ -522,6 +661,10 @@ a .btn-two {
 }
 
 @media (min-width: 992px) {
+  .sidebar {
+    display: none;
+  }
+  
   .lang {
     padding-top: 40px;
   }
@@ -647,6 +790,127 @@ a .btn-two {
 }
 
 @media (min-width: 1023px) {
+  .modal-inner {
+    width: 80%;
+    height: 94%;
+    background: #fff;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    border-radius: 1.6rem;
+  }
+
+  .modal-img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .modal-img {
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  /* .bullets { */
+    /* margin-right: 3px; */
+    /* display: inline-block; */
+    /* align-items: center; */
+    /* background-color: rgb(193, 199, 208); */
+    /* width: 10px; */
+    /* height: 10px; */
+    /* border-radius: 50%; */
+    /* margin-right: 10px; */
+    /* padding: 1px 5px; */
+  /* } */
+  .circle-desktop {
+    display: inline-block;
+    align-items: center;
+    background-color: rgb(193, 199, 208);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 1px 5px;
+  }
+
+  .modal-title {
+    margin-bottom: 1rem;
+    color: #172b4b;
+    font-size: 20px;
+  }
+
+  .modal-head {
+    display: flex;
+    align-items: center;
+    height: 10px;
+    margin-top: 14px;
+  }
+
+  .modal-text {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    color: #344563;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .card-detail-header-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  .cancels {
+    position: absolute;
+    top: 2rem;
+    font-size: 30px;
+    right: 12%;
+    z-index: 8;
+  }
+
+  .technologies-langu li {
+    background-color: #ebebff;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: poppins, sans-serif;
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 20px;
+    bottom: 105px;
+    left: 445px;
+  }
+
+  .canopy-js {
+    font-family: poppins, sans-serif;
+    color: #344563;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 16px;
+    margin-right: 10px;
+  }
+
+  .choice-javas {
+    font-family: poppins, sans-serif;
+    color: #7a869a;
+    font-weight: 100;
+    font-size: 8px;
+    line-height: 16px;
+    padding-top: 20px;
+    margin-right: 12px;
+    display: flex;
+  }
+
+  .option-modal {
+    color: #7a869a;
+    font-size: 12px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+
   .work-section {
     width: auto;
     height: min-content;
@@ -730,8 +994,6 @@ a .btn-two {
     line-height: 24px;
     position: static;
     margin-bottom: 5px;
-    width: 75px;
-    height: 16px;
     padding-left: 0;
     padding-top: 8px;
     margin-right: 12px;
@@ -750,6 +1012,26 @@ a .btn-two {
     position: static;
     padding-top: 8px;
     margin-right: 12px;
+  }
+
+  .option {
+    display: none;
+  }
+
+  .anchor-div li {
+    margin-top: 15px;
+  }
+
+  .anchor-div a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #4472e7;
+    font-size: 10px;
+  }
+
+  .popup-description {
+    margin-top: 15px;
+    width: 95%;
   }
 
   .option {
@@ -796,7 +1078,6 @@ a .btn-two {
 
   .cards-container {
     display: flex;
-    align-items: center;
     margin: 10px 0;
   }
 
