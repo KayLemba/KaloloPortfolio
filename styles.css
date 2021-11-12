@@ -608,6 +608,13 @@ a .btn-two {
   font-family: Poppins, sans-serif;
 }
 
+.error-message {
+  color: red !important;
+  margin-top: 0.2rem;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
 .con-but {
   justify-content: start;
   width: 140px;
