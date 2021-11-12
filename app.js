@@ -222,7 +222,7 @@ function showWorks() {
           <div class="card-detail-box">
             <ul class="cards-container">
               <li class="card-detail canopy">${work.options[0]}</li>
-              <li class="card-detail option  "><img src="images/bllets.png" alt="bullet"> ${work.options[1]}</li>
+              <li class="card-detail option  "><img src="images/bullets.png" alt="bullet"> ${work.options[1]}</li>
               <li class="card-detail option"><img src="images/bullets.png" alt="bullet"> ${work.options[2]}</li>
 
               <li class="card-detail dcanopy2_face">${work.options[0]}</li>
