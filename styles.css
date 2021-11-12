@@ -175,6 +175,18 @@ main {
   align-items: center;
   padding: 1px 5px;
   row-gap: 12px;
+  color: grey;
+}
+
+.circle-desktop {
+  display: inline-block;
+  align-items: center;
+  background-color: rgb(193, 199, 208);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 1px 5px;
 }
 
 .option {
@@ -428,7 +440,7 @@ a .btn-two {
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
-  color: #4472e7;
+  color: #2e63e7;
 }
 
 .message {
@@ -719,7 +731,7 @@ a .btn-two {
   .langu2 {
     background-color: #ebebff;
     padding: 10px;
-    color: #4472e7;
+    color: #2d5fdd;
     border-radius: 10px;
     font-weight: 500;
     font-family: poppins, sans-serif;
@@ -805,6 +817,6 @@ a .btn-two {
   }
 
   .logo {
-    animation: myrotate 10s;
+    animation: myrotate 3s;
   }
 }
