@@ -312,14 +312,45 @@ anchorLink.forEach((anchor) => {
 });
 
 window.onload = showWorks();
+const saveData = (data) => localStorage.setItem('last_info', JSON.stringify(data));
 const formContainer = document.querySelector('.con-form');
+const mailInput = document.getElementById('mail');
+const messageError = document.querySelector('.error-message');
+const msgInput = document.querySelector('#msg');
+const nameInput = document.querySelector('#names');
+
+let data = {};
+const savedData = JSON.parse(localStorage.getItem('last_info'));
+if (savedData) {
+  mailInput.value = savedData.email;
+  msgInput.value = savedData.msg;
+  nameInput.value = savedData.names;
+  data = savedData;
+}
+
+mailInput.addEventListener('input', () => {
+  data.email = mailInput.value;
+  saveData(data);
+});
+
+msgInput.addEventListener('input', () => {
+  data.msg = msgInput.value;
+  saveData(data);
+});
+
+nameInput.addEventListener('input', () => {
+  data.names = nameInput.value;
+  saveData(data);
+});
+
 formContainer.addEventListener('submit', (e) => {
   e.preventDefault();
-  const mailInput = document.getElementById('mail');
-  const messageError = document.querySelector('.error-message');
-
+  data.names = formContainer.elements.name.value;
+  data.email = formContainer.elements.email.value;
+  data.msg = formContainer.elements.msg.value;
   if (mailInput.value === mailInput.value.toLowerCase()) {
     messageError.textContent = '';
+    saveData(data);
   } else {
     messageError.innerHTML = '*email must be in lower case <br> * form not sent';
   }
