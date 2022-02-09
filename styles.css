@@ -284,6 +284,7 @@ main {
 
 .mobile-image img {
   width: 100%;
+  border-radius: 12px;
 }
 
 .head {
@@ -350,7 +351,7 @@ main {
   font-family: poppins, sans-serif;
   color: #7a869a;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 16px;
   position: static;
   width: 88px;
@@ -371,7 +372,7 @@ main {
   font-family: poppins, sans-serif;
   color: #344563;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 16px;
   position: static;
   width: 55px;
@@ -974,10 +975,11 @@ a .btn-two {
     display: none;
   }
 
-  .desktop-image {
+  .desktop-image img {
     display: block;
-    width: auto;
-    height: auto;
+    width: 35rem;
+    height: 27rem;
+    border-radius: 12px;
   }
 
   .dcanopy2_face,
