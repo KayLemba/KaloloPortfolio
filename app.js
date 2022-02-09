@@ -13,55 +13,55 @@ const width = window.innerWidth;
 const cards = [
   {
     key: 0,
-    name: 'Tonic',
-    option: ['CANOPY', 'Back End Dev', '2015'],
-    optionMobile: ['CANOPY', 'Back End Dev', '2015'],
+    name: 'First-Capstone',
+    option: ['CAPSTONE', 'Full Stack Dev', '2021'],
+    optionMobile: ['CAPSTONE', 'Full Stack Dev', '2021'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featuredImage: './images/photo1dt.png',
-    desktopImage: 'images/photo1dt.png',
-    technologies: ['html', 'css', 'javascript', 'ruby'],
-    linktoliveversion: 'https://kaylemba.github.io/KaloloPortfolio/',
-    linktosource: 'https://github.com/KayLemba/KaloloPortfolio',
+      'This is a microverse capstone project I built using html, css and Javascript.  This project is about an airshow event to be held in Zambia by a private institution called the Burning Circle flight academy. This project was inspired by the Dubai airshow. This project was made to inspire aviation fans around the world.',
+    featuredImage: './images/Airshow.png',
+    desktopImage: './images/Airshow.png',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Dom-Manipulation'],
+    linktoliveversion: 'https://romantic-nightingale-1691f2.netlify.app/',
+    linktosource: 'https://github.com/KayLemba/First-capstone',
   },
   {
     key: 1,
-    name: 'Multi-post Stories',
-    option: ['FACEBOOK', 'Back End Dev', '2015'],
-    optionMobile: ['CANOPY', 'Back End Dev', '2015'],
+    name: 'ToDo-List',
+    option: ['ToDo-List', 'Full Stack Dev', '2021'],
+    optionMobile: ['ToDo-List', 'Full Stack Dev', '2021'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featuredImage: './images/photo2dt.png',
-    desktopImage: './images/photo2dt.png',
-    technologies: ['html', 'css', 'javascript', 'ruby'],
-    linktoliveversion: 'https://kaylemba.github.io/KaloloPortfolio/',
-    linktosource: 'https://github.com/KayLemba/KaloloPortfolio',
+      'This is a Microverse todo-list Project I built with pure JavaScript, HTML, CSS, Babel, and NPM Webpacks. A todo-list is simply a list of things that one wants to get done or that need to get done.',
+    featuredImage: './images/interactive.png',
+    desktopImage: './images/interactive.png',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
+    linktoliveversion: 'https://kaylemba.github.io/Todo-list/dist/',
+    linktosource: 'https://github.com/KayLemba/Todo-list',
   },
   {
     key: 2,
-    name: 'FACEBOOK 360',
-    option: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    optionMobile: ['CANOPY', 'Back End Dev', '2015'],
+    name: 'Math Magicians',
+    option: ['CALCULATOR', 'Full Stack Dev', '2022'],
+    optionMobile: ['CALCULATOR', 'Full Stack Dev', '2022'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent ",
-    featuredImage: './images/photo3dt.png',
-    desktopImage: './images/photo3dt.png',
-    technologies: ['html', 'css', 'javascript', 'ruby'],
-    linktoliveversion: 'https://kaylemba.github.io/KaloloPortfolio/',
-    linktosource: 'https://github.com/KayLemba/KaloloPortfolio',
+      'Math Magicians is a single page application (SPA) built with React for people who love mathematics. It helps to make calculations straightforward and easy',
+    featuredImage: './images/fullsite.png',
+    desktopImage: './images/fullsite.png',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
+    linktoliveversion: 'https://distracted-aryabhata-aa3d97.netlify.app',
+    linktosource: 'https://github.com/KayLemba/math-magicians2',
   },
   {
     key: 3,
-    name: 'Uber Navigation',
-    option: ['Uber', 'Lead Developer', '2018'],
-    optionMobile: ['CANOPY', 'Back End Dev', '2015'],
+    name: 'COVID19 Metrics',
+    option: ['METRICS', 'Full Stack Dev', '2022'],
+    optionMobile: ['METRICS', 'Full Stack Dev', '2022'],
     description:
-      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featuredImage: './images/photo4dt.png',
-    desktopImage: './images/photo4dt.png',
-    technologies: ['html', 'css', 'javascript', 'git hub', 'ruby', 'Bootstrap'],
-    linktoliveversion: 'https://kaylemba.github.io/KaloloPortfolio/',
-    linktosource: 'https://github.com/KayLemba/KaloloPortfolio',
+      'COVID-19-Metrics is a Single page Application(S.P.A) built using React and redux in this project information on the COVID-19 virus is being fetched from an API. This Application shows data on COVID-19 specifically in African countries, the information is on COVID-19 cases, deaths, people tested and people that have recovered from the deadly virus.',
+    featuredImage: './images/Screenshot1.png',
+    desktopImage: './images/Screenshot1.png',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Github', 'Netlify'],
+    linktoliveversion: 'https://festive-lichterman-da1784.netlify.app',
+    linktosource: 'https://github.com/KayLemba/covid19-metrics',
   },
 ];
 
@@ -141,71 +141,71 @@ const Openpopup = ({
 function showWorks() {
   const works = [
     {
-      title: 'Tonic',
-      options: ['CANOPY', 'Back End Dev', '2015'],
-      imgMobile: 'images/photo1.png',
-      imgDesktop: 'images/photo1dt.png',
+      title: 'First-Capstone',
+      options: ['CAPSTONE', 'Full Stack Dev', '2021'],
+      imgMobile: 'images/Airshow.png',
+      imgDesktop: 'images/Airshow.png',
       description:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        'This is a microverse capstone project I built using html, css and Javascript.  This project is about an airshow event to be held in Zambia by a private institution called the Burning Circle flight academy. This project was inspired by the Dubai airshow. This project was made to inspire aviation fans around the world.',
       descriptionD:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      languages: ` <li class="langu langu-a">html</li>
-      <li class="langu langu-b">css</li>
-      <li class="langu langu-c">javascript</li>
-      <li class="langu2">html</li>
-      <li class="langu2">css</li>
-      <li class="langu2">javascript</li>`,
+        'This is a microverse capstone project I built using html, css and Javascript.  This project is about an airshow event to be held in Zambia by a private institution called the Burning Circle flight academy. This project was inspired by the Dubai airshow. This project was made to inspire aviation fans around the world.',
+      languages: ` <li class="langu langu-a">HTML</li>
+      <li class="langu langu-b">CSS</li>
+      <li class="langu langu-c">JavaScript</li>
+      <li class="langu2">HTML</li>
+      <li class="langu2">CSS</li>
+      <li class="langu2">JavaScript</li>`,
     },
     {
-      title: 'Multi-post Stories',
-      options: ['FACEBOOK', 'Back End Dev', '2015'],
-      imgMobile: 'images/photo2.png',
-      imgDesktop: 'images/photo2dt.png',
+      title: 'ToDo-List',
+      options: ['ToDo-List', 'Full Stack Dev', '2021'],
+      imgMobile: 'images/interactive.png',
+      imgDesktop: 'images/interactive.png',
       description:
-        'Experimental content creation features that allows users to add and existing story over the course of the day without spamming their friends.',
+        'This is a Microverse todo-list Project I built with pure JavaScript, HTML, CSS, Babel, and NPM Webpacks. A todo-list is simply a list of things that one wants to get done or that need to get done.',
       descriptionD:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required. ',
-      languages: `<li class="langu">html</li>
-      <li class="langu">css</li>
-      <li class="langu">javascript</li>
-      <li class="langu2">html</li>
-      <li class="langu2">Ruby on rails</li>
-      <li class="langu2">css</li>
-      <li class="langu2">javascript</li>`,
+        ' This is a Microverse todo-list Project I built with pure JavaScript, HTML, CSS, Babel, and NPM Webpacks. A todo-list is simply a list of things that one wants to get done or that need to get done.',
+      languages: `<li class="langu">HTML</li>
+      <li class="langu">CSS</li>
+      <li class="langu">JavaScript</li>
+      <li class="langu2">HTML</li>
+      <li class="langu2">Webpack</li>
+      <li class="langu2">CSS</li>
+      <li class="langu2">JavaScript</li>`,
     },
     {
-      title: 'Facebook 360',
-      options: ['FACEBOOK', 'Full Stack Dev', '2015'],
-      imgMobile: 'images/photo3.png',
-      imgDesktop: 'images/photo3dt.png',
+      title: 'Math-Magicians',
+      options: ['CALCULATOR', 'Full Stack Dev', '2022'],
+      imgMobile: 'images/fullsite.png',
+      imgDesktop: 'images/fullsite.png',
       description:
-        "Exploring the future of media in Facebook's first Virtual Reality place to discover and enjoy 360 photos and videos on Gear VR .",
+        'Math Magicians is a single page application (SPA) built with React for people who love mathematics. It helps to make calculations straightforward and easy.',
       descriptionD:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      languages: `<li class="langu">html</li>
-      <li class="langu">css</li>
-      <li class="langu">javascript</li>
-      <li class="langu2">html</li>
-      <li class="langu2">Ruby on rails</li>
-      <li class="langu2">css</li>
-      <li class="langu2">javascript</li>`,
+      'Math Magicians is a single page application (SPA) built with React for people who love mathematics. It helps to make calculations straightforward and easy.',
+      languages: `<li class="langu">HTML</li>
+      <li class="langu">CSS</li>
+      <li class="langu">React</li>
+      <li class="langu2">HTML</li>
+      <li class="langu2">React</li>
+      <li class="langu2">CSS</li>
+      <li class="langu2">JavaScript</li>`,
     },
     {
-      title: 'Uber Navigation',
-      options: ['Uber', 'Lead Developer', '2018'],
-      imgMobile: 'images/photo4.png',
-      imgDesktop: 'images/photo4dt.png',
+      title: 'COVID19-Metrics',
+      options: ['METRICS', 'Full Stack Dev', '2022'],
+      imgMobile: 'images/Screenshot1.png',
+      imgDesktop: 'images/Screenshot1.png',
       description:
-        'A smart assistant to make driving mode safe, efficient, and fun by unlocking your most expensive computer: your car.',
+        'COVID-19-Metrics is a Single page Application(S.P.A) built using React and redux in this project information on the COVID-19 virus is being fetched from an API. This Application shows data on COVID-19 specifically in African countries, the information is on COVID-19 cases, deaths, people tested and people that have recovered from the deadly virus.',
       descriptionD:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      languages: `<li class="langu">html</li>
-      <li class="langu">css</li>
-      <li class="langu">javascript</li>
-      <li class="langu2">html</li>
-      <li class="langu2">Ruby on rails</li>
-      <li class="langu2">css</li>
-      <li class="langu2">javascript</li>`,
+        'COVID-19-Metrics is a Single page Application(S.P.A) built using React and redux in this project information on the COVID-19 virus is being fetched from an API. This Application shows data on COVID-19 specifically in African countries, the information is on COVID-19 cases, deaths, people tested and people that have recovered from the deadly virus.',
+      languages: `<li class="langu">HTML</li>
+      <li class="langu">CSS</li>
+      <li class="langu">React</li>
+      <li class="langu2">HTML</li>
+      <li class="langu2">React</li>
+      <li class="langu2">CSS</li>
+      <li class="langu2">JavaScript</li>`,
     },
   ];
 
