@@ -57,8 +57,8 @@ const cards = [
     optionMobile: ['METRICS', 'Full Stack Dev', '2022'],
     description:
       'COVID-19-Metrics is a Single page Application(S.P.A) built using React and redux in this project information on the COVID-19 virus is being fetched from an API. This Application shows data on COVID-19 specifically in African countries, the information is on COVID-19 cases, deaths, people tested and people that have recovered from the deadly virus.',
-    featuredImage: './images/Screenshot1.png',
-    desktopImage: './images/Screenshot1.png',
+    featuredImage: './images/covidmetrics.png',
+    desktopImage: './images/covidmetrics.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Github', 'Netlify'],
     linktoliveversion: 'https://festive-lichterman-da1784.netlify.app',
     linktosource: 'https://github.com/KayLemba/covid19-metrics',
@@ -193,8 +193,8 @@ function showWorks() {
     {
       title: 'COVID19-Metrics',
       options: ['METRICS', 'Full Stack Dev', '2022'],
-      imgMobile: 'images/Screenshot1.png',
-      imgDesktop: 'images/Screenshot1.png',
+      imgMobile: 'images/covidmetrics.png',
+      imgDesktop: 'images/covidmetrics.png',
       description:
         'COVID-19-Metrics is a Single page Application(S.P.A) built using React and redux in this project information on the COVID-19 virus is being fetched from an API. This Application shows data on COVID-19 specifically in African countries, the information is on COVID-19 cases, deaths, people tested and people that have recovered from the deadly virus.',
       descriptionD:
