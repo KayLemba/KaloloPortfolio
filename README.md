@@ -1,7 +1,7 @@
 # My Portfolio Project For Microverse By Kalolo Chola Lemba
 
-# Live Demo link
-https://kaylemba.github.io/KaloloPortfolio/
+# Live Demo link (https://kalololembasportfolio.netlify.app)
+
 
 > This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
 # WORKFLOW SCREENSHOT 
